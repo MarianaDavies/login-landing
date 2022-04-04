@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgb(1, 55, 61), rgb(17, 140, 105));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    width: 320px;
+    border-width: 15px;
+    border: solid rgb(1, 42, 46);
+    border-radius: 9px;
+}
+
+.login-container .icon-image {
+    border-radius: 50%;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.login-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: gray;
+    text-align: center;
+
+}
+
+form .email {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+    font-size: 14px;
+}
+/* form .email::placeholder{
+    margin-left: 10px;
+} */
+
+
+form .password {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid grey;
+    border-top: 0;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.submit {
+    display:block;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 74, 80);
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid grey ;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-size: 12px;
+}
